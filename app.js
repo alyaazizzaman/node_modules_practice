@@ -3,4 +3,5 @@ var fs = require('fs');
 var respond = require('./autoResponse.js');
 var moment = require('moment');
 
+
 respond.AutoResponse(moment().format('dddd'));
