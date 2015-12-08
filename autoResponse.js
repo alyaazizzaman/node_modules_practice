@@ -1,7 +1,10 @@
 //Write your Constructor Function that will generate a different response for each day of the week
+var moment = require('moment');
+moment().format();
+
 module.exports = {
-  AutoResponse:function(string) {
-    switch (string) {
+  AutoResponse:function(day) {
+    switch (day) {
       case "Monday":
         console.log("I hate Mondays");
         break;
@@ -20,7 +23,7 @@ module.exports = {
       case "Saturday":
         console.log("Saturdays are the best!");
         break;
-      case "Sunday":
+      case "Sundgit ay":
         console.log("Sundays are pretty nice!");
         break;
       default:
